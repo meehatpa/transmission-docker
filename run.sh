@@ -6,8 +6,8 @@ docker run -d \
   --name=transmission \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
-  -e TRANSMISSION_WEB_HOME=/transmissionic/ `#optional` \
+  -e TZ=Asia/Kolkata \
+  -e TRANSMISSION_WEB_HOME=/flood-for-transmission/ `#optional` \
   -p 9091:9091 \
   -p 51413:51413 \
   -p 51413:51413/udp \
